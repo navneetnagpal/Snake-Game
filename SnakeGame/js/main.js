@@ -53,12 +53,7 @@
  			lastItemY++;
  	}
 
- 		//var t = snake.pop();
- 		//t.x = lastItemX;
- 		//t.y = lastItemY;
  		
- 		//if(selfDestruction(lastItemX,lastItemY,snake)){start();}
- 
  		if(lastItemX == -1 || lastItemX == Math.floor(sAW/cw) || lastItemY == -1 || lastItemY== Math.floor(sAH/cw) ||selfDestruction(lastItemX,lastItemY,snake))		{
  			
  			var rSize;
@@ -77,27 +72,6 @@
  				document.getElementById('play').style.visibility = "visible";
 
  			}
- 			/*if(snakeDirection=='right')
- 			{
- 				snakeDirection = 'left';
- 				//lastItemX=0;
- 			}
- 			
- 			else if(snakeDirection=='left')
- 			{
- 				snakeDirection= 'right';
- 				//lastItemX=0;
- 			}
- 			else if(snakeDirection=='up')
- 			{
- 				snakeDirection='down';
- 				//lastItemY=0
- 			}
- 			else if(snakeDirection=='down')
- 			{
- 				snakeDirection='up';
- 				//lastItemY=Math.floor(sAH/cw);
- 			}*/
  			
  			start();
 			//
